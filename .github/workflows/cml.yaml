@@ -1,4 +1,4 @@
-name: MLCI1
+name: MLCI2
 on: [push]
 jobs:
   train-and-report:
