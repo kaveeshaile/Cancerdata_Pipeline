@@ -156,7 +156,7 @@ plt.plot(np.arange(1, 100, 2), [i[2] for i in acc], "bo-")
 # Hyperparameter optimization
 from sklearn.model_selection import GridSearchCV
 
-k_range = list(range(1, 100, 2))
+k_range = list(range(1, 50, 2))
 param_grid = dict(n_neighbors = k_range)
   
 # Defining parameter range
