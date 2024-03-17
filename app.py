@@ -173,4 +173,6 @@ cmplot.ax_.set(title = 'Cancer Detection - Confusion Matrix',
 knn_best = KNN_new.best_estimator_
 
 
-
+#Write metrics to file
+with open('metrics.txt', 'w') as outfile:
+      outfile.write(f'\nAccuracy = {acc}')
